@@ -1,0 +1,153 @@
+/* Add a black background color to top nav */
+.topnav {
+	background-color: #80B63A;
+	overflow: hidden;
+}
+
+/* style the links inside the nav bar */
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* change the color of the link on hover */
+.topnav a:hover {
+	background-color: #62AB1C;
+	color: black;
+}
+
+/* add an active class to highlight the current page */
+.active {
+	background-color: none;
+	color: white;
+}
+
+/* hide the link that should open and close topnav on small screens */
+.topnav .icon {
+	display: none;
+}
+/* contains logo and slogan */
+.jumbotron {
+	text-align: center;
+}
+
+/* home page anykoalatees logo */
+.logo {
+	width: 70%;
+	height: 50%;
+}
+
+.slogan {
+	padding-top: 35px;
+}
+
+.container {
+	margin-bottom: 100px;
+}
+
+/* home page 3 steps */
+.mini-titles {
+	font-family: 'Indie Flower', cursive;
+}
+
+/* about page styling */
+.about-content {
+	width: 70%;
+	text-align: justify;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.about-main {
+	width: 70%;
+	text-align: justify;
+	margin-left: 100px;
+	padding-top: 50px;
+}
+
+/* the about page, meet the team */
+.ben-profile {
+	padding-top: 50px;
+}
+
+.hunter-profile {	
+}
+
+.chloe-profile {
+}
+
+/* shopping page styling */
+
+
+
+
+/* contact page styling */
+.contact-header {
+	text-align: center;
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+/**** contact form *****/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+#foxyform_embed_link_925118 {
+    margin-left: 100px;
+}
+
+
+/* when screen is less than 600px wide, hide all links but the ('home') link. */
+@media screen and (max-width: 600px) {
+	.topnav a:not (:first-child) {display: none;}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+  .topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+  }
+}
