@@ -17,8 +17,8 @@
 
 /* change the color of the link on hover */
 .topnav a:hover {
-	background-color: #62AB1C;
-	color: black;
+	background-color:#4CAF50;/* #62AB1C */;
+	color:white;
 }
 
 /* add an active class to highlight the current page */
@@ -31,6 +31,7 @@
 .topnav .icon {
 	display: none;
 }
+
 /* contains logo and slogan */
 .jumbotron {
 	text-align: center;
@@ -94,6 +95,7 @@
 }
 
 /**** contact form *****/
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
