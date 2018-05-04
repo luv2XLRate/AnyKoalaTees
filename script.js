@@ -18,3 +18,19 @@ $(document).ready(() => {
 	});
 });
 
+$('.home-button').on('mouseover', () => {
+    $('.home-button').animate({
+      fontSize: '16px',
+      color: '#EFEFEF',
+      backgroundColor: '#303030',
+    }, 200);
+  });
+
+$('.home-button').on('mouseleave', () => {
+    $('.home-button',).animate({
+        fontSize: '13px',
+        color: '#EFEFEF',
+        backgroundColor: '#303030',
+    }, 200);
+});
+
