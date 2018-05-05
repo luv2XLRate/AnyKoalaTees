@@ -18,7 +18,7 @@
 
 /* change the color of the link on hover */
 a:hover {
-    text-decoration-style: none;;
+    text-decoration-style: none;
     font-size: 20px;
 } 
 /* add an active class to highlight the current page */
