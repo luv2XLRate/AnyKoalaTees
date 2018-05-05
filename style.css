@@ -1,7 +1,7 @@
-/* Add a black background color to top nav */
+/* Add a green background color to top nav */
 .topnav {
 	background-color: #80B63A;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 /* style the links inside the nav bar */
@@ -12,19 +12,20 @@
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+    font-size: 16px;
+    font-family: cursive;
 }
 
 /* change the color of the link on hover */
-.topnav a:hover {
-	background-color:#4CAF50;/* #62AB1C */;
-	color:white;
-}
-
+a:hover {
+    text-decoration-style: none;;
+    font-size: 20px;
+} 
 /* add an active class to highlight the current page */
 .active {
 	background-color: none;
-	color: white;
+    color: white;
+    font-size: 20px;
 }
 
 /* hide the link that should open and close topnav on small screens */
@@ -119,15 +120,6 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-/* Add a background color and some padding around the form */
-#foxyform_embed_link_925118 {
-    margin-left: 100px;
-}
 
 
 /* when screen is less than 600px wide, hide all links but the ('home') link. */

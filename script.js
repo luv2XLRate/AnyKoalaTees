@@ -13,24 +13,15 @@ function myFunction() {
 
 // home page logo mouse over fade out
 $(document).ready(() => {
-	  $('.logo').on('mouseover', () => {
+	  $('.logo').on('mouseenter', () => {
 	  	$('.logo').fadeOut(500);
 	});
 });
 
-$('.home-button').on('mouseover', () => {
-    $('.home-button').animate({
-      fontSize: '16px',
-      color: '#EFEFEF',
-      backgroundColor: '#303030',
-    }, 200);
-  });
+// keep font size for page nav link that is on
 
-$('.home-button').on('mouseleave', () => {
-    $('.home-button',).animate({
-        fontSize: '13px',
-        color: '#EFEFEF',
-        backgroundColor: '#303030',
-    }, 200);
+$(document).ready(() => {
+    $('.nav-button').on('click', () => {
+        $('.nav-button').addClass('active');
+    });
 });
-
